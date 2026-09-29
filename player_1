@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>雪松大誠 | 薩摩ライジング</title>
+  <style>
+    body { font-family: "Helvetica Neue", Arial, sans-serif; background-color: #f4f6f9; color: #333; margin: 0; padding: 20px; }
+    .container { max-width: 800px; margin: 0 auto; background: #ffffff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); overflow: hidden; }
+    .back-btn { display: inline-block; margin: 20px; padding: 8px 16px; background-color: #e5e7eb; color: #374151; text-decoration: none; border-radius: 6px; font-weight: bold; }
+    .photo-area { width: 100%; height: 350px; background-color: #e5e7eb; display: flex; align-items: center; justify-content: center; color: #9ca3af; font-size: 1.2rem; font-weight: bold; }
+    .profile-header { padding: 0 30px 20px 30px; border-bottom: 2px solid #e5e7eb; }
+    .number-pos { display: flex; align-items: center; gap: 15px; margin-bottom: 5px; }
+    .number { font-size: 2.5rem; font-weight: bold; color: #1e3a8a; }
+    .position { background-color: #2563eb; color: #ffffff; padding: 4px 12px; border-radius: 6px; font-size: 1rem; font-weight: bold; }
+    .name { font-size: 2.2rem; margin: 0; color: #111827; }
+    .profile-details { padding: 30px; }
+    .section-title { font-size: 1.3rem; color: #1e3a8a; border-left: 4px solid #1e3a8a; padding-left: 10px; margin-bottom: 15px; }
+    .detail-table { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
+    .detail-table th, .detail-table td { padding: 12px 15px; border-bottom: 1px solid #e5e7eb; text-align: left; }
+    .detail-table th { background-color: #f9fafb; color: #4b5563; width: 30%; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-btn">← 選手一覧へ戻る</a>
+    <div class="photo-area">写真スペース</div>
+    <div class="profile-header">
+      <div class="number-pos">
+        <span class="number">#1</span>
+        <span class="position">内野手</span>
+      </div>
+      <h1 class="name">雪松 大誠</h1>
+    </div>
+    <div class="profile-details">
+      <h2 class="section-title">基本情報</h2>
+      <table class="detail-table">
+        <tr><th>投打</th><td>右投げ / 右打ち</td></tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
